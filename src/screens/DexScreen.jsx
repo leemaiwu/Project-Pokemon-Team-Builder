@@ -4,21 +4,9 @@ import PokedexCard from '../components/PokedexCard'
 
 const DexScreen = ({pokemon}) => {
 
-    // const [pokemon, setPokemon] = useState([])
     const [search, setSearch] = useState('')
 
     const searchHandler = (event) => setSearch(event.target.value.toLowerCase())
-
-    // useEffect(() => {
-    //     axios.get(`https://pokeapi.co/api/v2/pokemon?limit=1000`)
-    //     .then((res) => {
-    //         let newState = res.data.results.map((item, index) => {
-    //             item.img = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index + 1}.png`
-    //             return item
-    //         })
-    //         setPokemon(newState)
-    //     })
-    // }, [])
 
     const pokemonDisplay = pokemon
     .filter((poke, index) => {

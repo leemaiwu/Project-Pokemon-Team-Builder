@@ -1,6 +1,6 @@
 # Pokemon Team Builder
 
-This Pokemon Team Builder displays the entire Pokedex and let's you build your own team. The app was built using React and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Pokemon Team Builder web app displays the entire Pokedex! It allows users to search Pokemon and add them to their team.. The app was built using React and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ![Pokedex](https://github.com/leemaiwu/React-Pokemon-Team-Builder/blob/main/readme_img/Screenshot%202023-04-21%20at%206.57.32%20PM.png?raw=true)
 
