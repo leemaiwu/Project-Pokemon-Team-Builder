@@ -13,6 +13,8 @@ This Pokemon Team Builder web app displays the entire Pokedex! It allows users t
 
 ## Features
 
+The app uses Redux for state management and Axios to make HTTP requests to the PokeAPI.
+
 - View entire list Pokemon.
 - Search for any Pokemon.
 - Add Pokemon to your Team.
@@ -23,7 +25,7 @@ This Pokemon Team Builder web app displays the entire Pokedex! It allows users t
 
 ## API
 
-The Pokemon are displayed using the PokeAPI.
+The Pokemon are displayed using the [Poke API](https://pokeapi.co/).
 
 ## Author
 
