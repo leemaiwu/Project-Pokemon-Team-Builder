@@ -2,7 +2,7 @@
 
 This Pokemon Team Builder web app displays the entire Pokedex! It allows users to search Pokemon and add them to their team.. The app was built using React and bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-![Pokedex](https://github.com/leemaiwu/React-Pokemon-Team-Builder/blob/main/readme_img/Screenshot%202023-04-21%20at%206.57.32%20PM.png?raw=true)
+![Pokedex](https://github.com/leemaiwu/React-Pokemon-Team-Builder/blob/main/images/Screenshot%202023-04-22%20at%2012.36.55%20PM.png?raw=true)
 
 ## How to Use the App
 
@@ -21,7 +21,7 @@ The app uses Redux for state management and Axios to make HTTP requests to the P
 - Click the Team button and view your team.
 - Pokemon added to your team display type and stats.
 
-![My Team](https://github.com/leemaiwu/React-Pokemon-Team-Builder/blob/main/readme_img/Screenshot%202023-04-21%20at%206.58.30%20PM.png?raw=true)
+![My Team](https://github.com/leemaiwu/React-Pokemon-Team-Builder/blob/main/images/Screenshot%202023-04-22%20at%2012.38.44%20PM.png?raw=true)
 
 ## API
 
