@@ -27,12 +27,18 @@ function App() {
     })
   }, [])
 
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [teamPage])
+
   return (
     <div className="App">
       <Header />
       <div className='row-container'>
-        <button className='button' onClick={() => changePage(true)} >Team</button>
-        <button className='button' onClick={() => changePage(false)} >Dex</button>
+        <span className='below'>
+          <button className='button' onClick={() => changePage(true)} >Team</button>
+          <button className='button' onClick={() => changePage(false)} >Dex</button>
+        </span>
         {teamPage ? <TeamScreen /> : <DexScreen pokemon={pokemon} />}
       </div>
     </div>

@@ -33,6 +33,7 @@
   --l: 56%;
 
   --color-primary: hsl(var(--accent), var(--l));
+  margin-bottom: 30px;
 }
 
 body {
@@ -42,7 +43,6 @@ body {
   overflow-x: hidden;
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
 }
 
 header {
@@ -54,10 +54,30 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 40px;
   box-sizing: border-box;
   justify-content: center;
+  /* margin-bottom: 10px; */
 }
+
+/* ----------------- */
+.top {
+  position: sticky;
+  top: 0;
+}
+
+.below {
+  width: 100vw;
+  height: 80px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.366);
+  display: flex;
+  position: sticky;
+  top: 100px;
+  background-color: #232323;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+/* ----------------- */
 
 .App {
   display: flex;
@@ -353,14 +373,15 @@ form {
 
 
 ::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
+  width: 18px;
+  height: 20px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgb(41, 41, 41);
+  /* background: rgba(6, 6, 6, 0.757); */
+  border: 0.5px solid var(--color-primary);
 }
 
 ::-webkit-scrollbar-track {
-  background: rgba(134, 134, 134, 0.2);
+  background: rgba(134, 134, 134, 0.253);
 }

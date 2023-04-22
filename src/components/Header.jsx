@@ -3,7 +3,7 @@ import React from 'react'
 const Header = () => {
 
     return (
-        <header>
+        <header className='top'>
             <h1>Pokemon Team Builder!</h1>
         </header>
     )
