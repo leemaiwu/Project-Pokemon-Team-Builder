@@ -50,13 +50,27 @@ header {
   width: 100vw;
   background-color: var(--color-primary);
   padding: 0px 35px;
+  /* display:inline-flex; */
+  /* color: white; */
+  /* box-sizing: border-box; */
+  /* margin-bottom: 10px; */
+}
+
+header h1 {
   color: white;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  box-sizing: border-box;
   justify-content: center;
-  /* margin-bottom: 10px; */
+  align-items: center;
+  margin-top: 30px;
+}
+
+.logo {
+  display: flex;
+  /* align-items: flex-start;
+  justify-content: start; */
+  width: 300px;
+  margin-top: -190px;
+  /* top: 0; */
 }
 
 /* ----------------- */

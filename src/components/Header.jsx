@@ -4,10 +4,8 @@ const Header = () => {
 
     return (
         <header className='top'>
-            <div id='logo'>
-            <img alt='Pokemon' src='https://github.com/leemaiwu/React-Pokemon-Team-Builder/blob/main/images/pokemon_title.png?raw=true' />
-            </div>
-            {/* <h1>Pokemon Team Builder!</h1> */}
+            <h1>Team Builder!</h1>
+            <img alt='Pokemon' className='logo' src='https://github.com/leemaiwu/React-Pokemon-Team-Builder/blob/main/images/pokemon_header.png?raw=true' />
         </header>
     )
 }
