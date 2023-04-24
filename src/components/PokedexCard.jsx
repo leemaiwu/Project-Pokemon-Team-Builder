@@ -5,7 +5,7 @@ import GlobalContext from '../state/GlobalContext'
 
 const PokedexCard = (props) => {
 
-    const { dispatch } = useContext(GlobalContext)
+    const {dispatch} = useContext(GlobalContext)
 
     const addToTeam = () => {
         axios

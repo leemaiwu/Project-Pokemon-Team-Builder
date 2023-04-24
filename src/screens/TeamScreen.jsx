@@ -8,7 +8,7 @@ const TeamScreen = () => {
     const {state, dispatch} = useContext(GlobalContext)
 
     const removeFromTeam = (pokemon) => {
-        return dispatch({ type: 'REMOVE_FROM_TEAM', payload: pokemon})
+        return dispatch({type: 'REMOVE_FROM_TEAM', payload: pokemon})
     }
 
     const displayTeam = useMemo(() => state.team.map((p, index) => {

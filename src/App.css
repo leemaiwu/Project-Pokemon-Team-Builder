@@ -86,11 +86,14 @@ header h1 {
   border-bottom: 1px solid rgba(0, 0, 0, 0.366);
   display: flex;
   position: sticky;
+  flex-direction: column;
   top: 100px;
   background-color: #232323;
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
+  /* padding-left: 700px;
+  padding-right: 700px; */
 }
 /* ----------------- */
 
