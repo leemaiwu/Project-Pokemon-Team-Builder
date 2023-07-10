@@ -17,7 +17,7 @@ function App() {
   }
 
   useEffect(() => {
-    axios.get(`https://pokeapi.co/api/v2/pokemon?limit=1008`)
+    axios.get(`https://pokeapi.co/api/v2/pokemon?limit=1010`)
     .then((res) => {
         let newState = res.data.results.map((item, index) => {
             item.img = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${index + 1}.png`
